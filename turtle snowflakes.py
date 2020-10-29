@@ -18,7 +18,7 @@ def branch():
             elsa.forward(30)
             elsa.backward(30)
             elsa.right(45)
-        elsa.right(90)
+        elsa.left(90)
         elsa.backward(30)
         elsa.left(45)
     elsa.right(90)
