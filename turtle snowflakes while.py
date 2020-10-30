@@ -20,11 +20,11 @@ def branch():
             elsa.forward(30)
             elsa.backward(30)
             elsa.right(45)
-            b = b + 1   
+            b += 1   
         elsa.left(90)
         elsa.backward(30)
         elsa.left(45)
-        a = a + 1
+        a += 1
     elsa.right(90)
     elsa.forward(90)
         
@@ -35,5 +35,5 @@ while c < 8:
     branch()
     elsa.left(45)
     elsa.color(random.choice(colours))
-    c = c + 1
+    c += 1
 
